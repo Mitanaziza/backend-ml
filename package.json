@@ -1,0 +1,20 @@
+{
+  "name": "backend-ml",
+  "version": "1.0.0",
+  "description": "Backend ML for cancer prediction",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^3.21.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^11.11.1",
+    "multer": "^1.4.4",
+    "uuid": "^9.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
